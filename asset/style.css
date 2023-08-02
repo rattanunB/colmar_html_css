@@ -155,6 +155,56 @@ a{
     margin-top: 5px;
     margin-bottom: 16px;
 }
+
+.course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 72px;
+    background-color: lightgray;
+}
+
+.courseTitle{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.courseCard{
+    background-color: white;
+}
+.courseCardWarp{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.courseCardTop{
+    display: flex;
+    gap: 32px;
+}
+
+.courseCardBottom{
+    display: flex;
+    gap: 32px;
+}
+
+.courseCardInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.courseCardTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.courseCardType{
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
