@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
+    height: 64px;
+}
+
+.navLeft{
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.navRight{
+    height: 32px;
+}
+
+.navRightUl{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+.footerRight{
+    display: flex;
+    gap: 16px;
+}
