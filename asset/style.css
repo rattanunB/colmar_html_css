@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 
-nav{
+.navComputer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -297,3 +297,158 @@ footer{
     display: flex;
     gap: 16px;
 }
+
+.navMobile{
+    height: 64px;
+    align-items: center;
+    display: none;
+}
+
+.icMobile{
+    height: 32px;
+}
+
+.informationCardImgMobile{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .navComputer{
+        display: none;
+
+    }
+    .navMobile{
+        display: block;
+        display: flex;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 32px;
+    }
+
+    .heroRight{
+        padding:0 16px;
+        gap: 0;
+    }
+
+    .heroRightDesc{
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+    
+    .heroButton{
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+    
+    .information{
+        padding: 0;
+    }
+
+    .informationLeft{
+        display: none;
+    }
+
+    .informationCard{
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px 64px 16px;
+    }
+
+    .informationCard:nth-child(3){
+        padding-bottom: 32px;
+    }
+
+    .informationCardImgWarp{
+        padding: 0;
+    }
+
+    .informationCardImg{
+        display: none;
+    }
+
+    .informationCardImgMobile{
+        display: block;
+    }
+
+    .informationCardInfo{
+        padding: 0 16px;
+    }
+
+    .course{
+        padding: 32px 16px;
+        background-color: white;
+        border-top: solid 0.5px lightgrey;
+    }
+
+    .courseTitle{
+        margin-bottom: 16px;
+    }
+
+    .courseCardTop{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .courseCardBottom{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .courseCardImg{
+        display: none;
+    }
+
+    .courseCardType{
+        display: none;
+    }
+
+    .courseCardDesc{
+        display: none;
+    }
+
+    .courseCardWarp{
+        width: 100%;
+        gap: 8px;
+    }
+
+    .courseCardInfo{
+        background-color: lightgray;
+        padding: 16px 16px 24px 16px;
+    }
+    
+    .thesis {
+        padding: 0;
+        border-top: solid 0.5px lightgrey;
+    }
+
+    .thesisTitle{
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .thesisVideoInfo{
+        display: none;
+    }
+
+    .thesisRight{
+        display: none;
+    }
+    
+    .thesisLeft{
+        margin-bottom: 24px;
+    }
+
+    footer{
+        margin: 16px 24px;
+    }
+
+    .footerRight{
+        display: none;
+    }
+  }
