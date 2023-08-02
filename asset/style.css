@@ -171,13 +171,18 @@ a{
 }
 
 .courseCard{
-    background-color: white;
+    background-color: white;    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
 }
 .courseCardWarp{
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
+
 
 .courseCardTop{
     display: flex;
@@ -188,6 +193,7 @@ a{
     display: flex;
     gap: 32px;
 }
+
 
 .courseCardInfo{
     display: flex;
