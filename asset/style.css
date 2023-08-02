@@ -14,7 +14,7 @@ img{
     width: 100%;
 }
 
-span{
+span,i{
     color: gray;
 }
 
@@ -288,9 +288,17 @@ video{
 }
 
 footer{
+    border-top: solid 0.5px gray;    
+}
+
+.fa-regular{
+    font-size: 14px;
+}
+
+.footerInfo{
     display: flex;
     justify-content: space-between;
-    margin: 0 24px;
+    margin: 16px 24px 52px 24px;
 }
 
 .footerRight{
@@ -445,6 +453,11 @@ footer{
     }
 
     footer{
+        border: none;
+        
+    }
+
+    .footerInfo{
         margin: 16px 24px;
     }
 
