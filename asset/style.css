@@ -10,6 +10,19 @@ nav{
     height: 64px;
 }
 
+img{
+    width: 100%;
+}
+
+span{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
 .navLeft{
     display: flex;
     align-items: center;
@@ -35,13 +48,6 @@ nav{
     gap: 16px;
 }
 
-/* .container{
-    margin: 32px 0px 32px 24px;
-} */
-
-.heroImg{
-    width: 100%;
-}
 .hero{
     display: flex;
     gap: 24px;
@@ -84,6 +90,71 @@ nav{
     font-size: 20px;
 }
 
+.information{
+    display: flex;
+    gap: 24px;
+    padding:32px 0px 32px 24px;
+}
+
+.informationLeft{
+    display: flex;
+    flex: 6;
+    flex-direction: column;
+}
+
+.informationMainTitle{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.informationMainInfo{
+    display: flex;
+    flex-direction: column;
+    margin:32px 0;
+    gap: 24px;
+}
+
+.informationRight{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+}
+
+.informationCard{
+    display: flex;
+    gap: 16px;
+}
+
+.informationCard:hover{
+    background-color: lightgray;
+}
+
+.informationCardImgWarp{
+    display: flex;
+    flex: 3.5;
+    padding: 16px 0px 16px 16px;
+}
+
+.informationCardImg{
+    height: auto;
+}
+
+.informationCardTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.informationCardInfo{
+    display: flex;
+    flex: 6.5;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.informationCardDesc{
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
 footer{
     display: flex;
     justify-content: space-between;
