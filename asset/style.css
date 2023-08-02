@@ -16,8 +16,17 @@ nav{
     height: 32px;
 }
 
+.logo{
+    height: 100%;
+}
+
+.logoName{
+    font-size: 20px;
+}
+
 .navRight{
-    height: 32px;
+    display: flex;
+    align-items: center;
 }
 
 .navRightUl{
@@ -26,7 +35,54 @@ nav{
     gap: 16px;
 }
 
+/* .container{
+    margin: 32px 0px 32px 24px;
+} */
 
+.heroImg{
+    width: 100%;
+}
+.hero{
+    display: flex;
+    gap: 24px;
+    background-color: lightgray;
+    padding:32px 0px 32px 24px;
+}
+
+.heroLeft{
+    display: flex;
+    flex: 6;
+}
+
+.heroRight{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.heroRightTitle{
+    font-size: 64px;
+    font-weight: 600;
+    color: gray;
+}
+
+.heroRightDesc{
+    font-size: 32px;
+    font-weight: 600;
+    color: gray;
+}
+
+.heroButton{
+    width: 100%;
+    max-width: 18rem;
+    padding: 8px 0;
+    background: gray;
+    border: solid 0px;
+    color: white;
+    font-size: 20px;
+}
 
 footer{
     display: flex;
